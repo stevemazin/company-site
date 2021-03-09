@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Artifika&display=swap");
+
+.hero {
+  background-image: url("../public/hero-1.jpg"),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  height: 80vh;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-attachment: fixed;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  color: #39603d;
+}
+
+.header {
+  font-family: "Artifika";
+  font-size: 4rem;
+  font-weight: lighter;
+}
+
+.heroTxt {
+  color: #fff;
+}
+
+.container {
+  margin: 0 6rem;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 144px;
+  height: 42px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  background-color: #39603d;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.4rem;
+  text-decoration: none;
+  transition: all 150ms;
+  border: none;
+  margin: 1rem 0;
+}
+
+.btn:hover {
+  color: #39603d;
+  background-color: #a3bcb6;
+  transform: translate(0, 2);
+}

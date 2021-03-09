@@ -1,0 +1,43 @@
+/* 
+leaf-green: #39603d;
+brown-grey: #3c403d;
+olive: #a3bcb6;
+tanly: #daded4;
+white: #fff; 
+*/
+
+.container {
+  height: 60px;
+  margin: 0 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navBar {
+  background-color: #fff;
+  color: #39603d;
+  box-shadow: 0.005rem 0.005rem 3px #39603d;
+  font-size: 1.6rem;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+}
+
+.navLinkItems {
+  margin: 0 0.5rem;
+}
+.navLinkItems a {
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.navLinkItems a:hover {
+  color: #3c403d;
+}
+
+.navLinkItems a:hover {
+  transform: translateY(2);
+}
