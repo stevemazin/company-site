@@ -1,0 +1,27 @@
+.input {
+  border: 1px solid seagreen;
+}
+
+.submitBtn {
+  display: block;
+  height: 4.2rem;
+  width: 14.4rem;
+  background-color: seagreen;
+  border: none;
+  color: #fff;
+  font-size: 1.6rem;
+  border-radius: 5px;
+}
+
+.container {
+  margin: 0 6rem;
+}
+
+.contactCard {
+  height: auto;
+}
+
+.form {
+  background-color: blue;
+  margin: 0 auto;
+}

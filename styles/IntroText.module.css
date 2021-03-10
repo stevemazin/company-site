@@ -6,31 +6,39 @@
 .infoTxtWrapper {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 @media screen and (max-width: 768px) {
-  .container {
+  .infoTxtWrapper {
     flex-direction: column;
-  }
-
-  .paragraph1 {
-    text-align: left;
-    margin: 1rem 0;
+    text-align: center;
   }
 }
 
-.paragraph1 {
-  font-weight: 200;
-  margin-right: 1rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-.paragraph2 {
+.headerMain {
+  color: #39603d;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 2rem auto;
   font-weight: 300;
-  margin-left: 1rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+}
+
+.imgWrapper {
+  padding: 4rem;
+}
+
+.serviceTxt {
+  padding: 0 1rem 0 0;
+}
+
+.headerSecondary {
+  line-height: 1.8;
+}
+
+.paragraph {
+  font-weight: 300;
+  line-height: 1.8;
 }
 
 .focusedTxt {
