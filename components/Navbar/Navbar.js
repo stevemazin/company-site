@@ -20,7 +20,7 @@ const Navbar = () => {
               duration={500}
               to="contact"
             >
-              <a>Contact Us</a>
+              Contact Us
             </Link>
           </li>
           <li className={styles.navLinkItems}>
@@ -32,7 +32,7 @@ const Navbar = () => {
               duration={500}
               to="services"
             >
-              <a>Services</a>
+              Services
             </Link>
           </li>
         </ul>

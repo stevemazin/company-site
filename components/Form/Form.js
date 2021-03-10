@@ -11,7 +11,11 @@ export default function Form() {
     <div className={styles.container}>
       <div className={styles.contactCard}>
         <form className={styles.form} onSubmit={handleSubmit(onSubmit)}>
-          <input className={styles.input} name="firstName" ref={register} />
+          <input
+            className={styles.input}
+            name="firstName"
+            ref={register({ required: true, maxLength: 20 })}
+          />
           <select name="gender" ref={register}>
             <option value="property-managament">Property Management</option>
             <option value="debt-collection-services">Debt Collection</option>
