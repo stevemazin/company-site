@@ -8,7 +8,7 @@
   background-color: #fff;
   padding: 1rem;
   margin: 1rem 0;
-  width: 30rem;
+  width: min-content;
 }
 
 .formGroup {
@@ -68,6 +68,7 @@
 
 .contactHeaderMain {
   color: seagreen;
+  text-align: center;
 }
 
 .contactHeaderTag {
@@ -77,6 +78,7 @@
 .contactWrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
   align-items: center;
   justify-items: center;
 }
@@ -84,5 +86,9 @@
 @media screen and (max-width: 768px) {
   .contactWrapper {
     grid-template-columns: 1fr;
+  }
+
+  .contactHeaderMain {
+    font-size: 1.4rem;
   }
 }
