@@ -1,27 +1,88 @@
+.container {
+  margin: 0 6rem;
+}
+
+.formWrapper {
+  border: 2px solid seagreen;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 1rem;
+  margin: 1rem 0;
+  width: 30rem;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+}
+
+.label {
+  font-size: 1.4rem;
+  color: seagreen;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+
 .input {
-  border: 1px solid seagreen;
+  background: transparent;
+  padding: 1rem 0.5rem;
+  outline: none;
+  border: 2px solid seagreen;
+  border-radius: 5px;
+}
+
+.textarea {
+  background: transparent;
+  border: 2px solid seagreen;
+  border-radius: 5px;
+  padding: 1rem 0.5rem;
+}
+
+.select {
+  border: 2px solid seagreen;
+  border-radius: 5px;
+  padding: 1rem 0.5rem;
+}
+.textarea:focus {
+  outline: none;
 }
 
 .submitBtn {
-  display: block;
-  height: 4.2rem;
-  width: 14.4rem;
+  height: 42px;
+  width: 100%;
+  margin: 1rem auto;
+  text-align: center;
   background-color: seagreen;
   border: none;
   color: #fff;
   font-size: 1.6rem;
   border-radius: 5px;
+  cursor: pointer;
 }
 
-.container {
-  margin: 0 6rem;
+.contactHeader {
+  font-size: 2rem;
+  line-height: 1.8;
 }
 
-.contactCard {
-  height: auto;
+.contactHeaderMain {
+  color: seagreen;
 }
 
-.form {
-  background-color: blue;
-  margin: 0 auto;
+.contactHeaderTag {
+  line-height: 1.6;
+}
+
+.contactWrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .contactWrapper {
+    grid-template-columns: 1fr;
+  }
 }
