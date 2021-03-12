@@ -7,8 +7,20 @@
   border-radius: 5px;
   background-color: #fff;
   padding: 1rem;
-  margin: 1rem 0;
-  width: min-content;
+  margin: 1rem auto;
+  width: 45rem;
+}
+
+@media screen and (max-width: 948px) {
+  .formWrapper {
+    width: 35rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .formWrapper {
+    width: 25rem;
+  }
 }
 
 .formGroup {
@@ -25,6 +37,7 @@
 }
 
 .input {
+  width: 100%;
   background: transparent;
   padding: 1rem 0.5rem;
   outline: none;
@@ -63,12 +76,10 @@
 
 .contactHeader {
   font-size: 2rem;
-  line-height: 1.8;
 }
 
 .contactHeaderMain {
   color: seagreen;
-  text-align: center;
 }
 
 .contactHeaderTag {
@@ -88,7 +99,8 @@
     grid-template-columns: 1fr;
   }
 
-  .contactHeaderMain {
-    font-size: 1.4rem;
+  .contactHeader {
+    text-align: center;
+    font-size: 1.6rem;
   }
 }
